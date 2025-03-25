@@ -1,4 +1,31 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+
+:root {
+  -blue: #000028;  
+  --red: #FF0070;
+  --page-bg-color: var(--blue); 
+  --bg-image: url("../images/cover-image-dark.png"); 
+  --purple:#DB00FF;
+  --title-color: var(--purple);
+  --header-text-bg-color: var(--red); 
+  --header-text-color: var(--blue); 
+  --question-color: var(--red); 
+  --accent-color: var(--red);
+  --answer-title-bg-color: var(--red); 
+  --answer-title-color: var(--blue); 
+  --answer-text-color: #F1B2CE; 
+  --advice-bg-color: var(--red); 
+  --advice-title-color: var(--blue); 
+  --button-color: var(--red); 
+  --rec-color: var(--red); 
+  --decorated-color: var(--red);
+  --border-color-opacity: #FF007040; 
+
+  --default-font-size: 18px;
+  --default-line-height: 1;
+  --decor-gap: clamp(10px , 2.65vw , 20px);
+  --child-margin: 40px;
+  --left-header-margin: min(10px, 20px - 2.6vw);
+  --border-corner: 1px;
+  --default-font-family: "IBM Plex Mono", "Arial", "Helvetica", sans-serif;
+}
+
