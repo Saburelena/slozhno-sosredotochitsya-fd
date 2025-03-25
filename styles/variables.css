@@ -1,6 +1,6 @@
 
 :root {
-  -blue: #000028;  
+  --blue: #000028;  
   --red: #FF0070;
   --page-bg-color: var(--blue); 
   --bg-image: url("../images/cover-image-dark.png"); 
@@ -18,14 +18,14 @@
   --button-color: var(--red); 
   --rec-color: var(--red); 
   --decorated-color: var(--red);
-  --border-color-opacity: #FF007040; 
+  --border-color-opacity: #FF007066; 
 
   --default-font-size: 18px;
   --default-line-height: 1;
-  --decor-gap: clamp(10px , 2.65vw , 20px);
+  --responsive-size: clamp(10px , 2.65vw , 20px);
   --child-margin: 40px;
   --left-header-margin: min(10px, 20px - 2.6vw);
   --border-corner: 1px;
-  --default-font-family: "IBM Plex Mono", "Arial", "Helvetica", sans-serif;
+  --default-font-family: "IBM Plex Mono", monospace;
 }
 

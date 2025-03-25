@@ -18,7 +18,7 @@
      --button-color: var(--red); 
      --rec-color: var(--red); 
      --decorated-color: var(--red);
-     --border-color-opacity: #FF007040; 
+     --border-color-opacity: #FF007066; 
  }
 
 @media (prefers-color-scheme: dark) {
