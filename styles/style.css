@@ -49,7 +49,7 @@
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
   color: var(--title-color, #DB00FF);
-  margin-left: --left-header-margin;
+  margin-left: var(--left-header-margin);
   align-self: center;
 
 @media (width >= 768px) {
